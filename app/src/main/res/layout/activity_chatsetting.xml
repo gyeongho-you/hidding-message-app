@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    >
+
+    <!-- 타이틀바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="메시지 확인"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            android:padding="0dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:onClick="Hide_Chat_Check" />
+
+    </LinearLayout>
+    <!-- //end 타이틀바 -->
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <!-- Notice -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="메시지 숨김 해제"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            android:padding="0dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:onClick="Chat_Hide_Off" />
+
+    </LinearLayout>
+    <!-- Notice -->
+
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <!-- 닫기 버튼 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="메시지 숨김"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            android:padding="0dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:onClick="Chat_Hide_On" />
+    </LinearLayout>
+    <!--// 닫기 버튼 -->
+</LinearLayout>
